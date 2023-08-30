@@ -1,6 +1,8 @@
 import asyncio
+from tokenize import String
+
 from fastapi import FastAPI
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, Column, Integer
 from sqlalchemy.orm import sessionmaker
 
 app = FastAPI()
